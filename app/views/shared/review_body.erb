@@ -29,7 +29,7 @@ Please avoid lengthy details of difficulties in the review thread. Instead, plea
 The reviewer guidelines are available here: https://jose.theoj.org/about#reviewer_guidelines. Any questions/concerns please let <%= editor %> know.
 
 <%- if paper.kind.present? %>
-  <%= render partial: "content/github/#{paper.kind.join('_')}_review_checklist", locals: local_assigns %>
+  <%= render partial: "content/github/#{paper.kind.gsub(' ', '_')}_review_checklist", locals: local_assigns %>
 <%- else %>
   <%= render partial: "content/github/review_checklist", locals: local_assigns %>
 <%- end %>
