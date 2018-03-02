@@ -1,43 +1,83 @@
-# The Journal of Open Source Software
+# The Journal of Open Source Education
 
-[![Build Status](https://travis-ci.org/openjournals/joss.svg?branch=master)](https://travis-ci.org/openjournals/joss) [![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org) [![Join the chat at https://gitter.im/openjournals/joss](https://badges.gitter.im/openjournals/joss.svg)](https://gitter.im/openjournals/joss?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/openjournals/jose.svg?branch=master)](https://travis-ci.org/openjournals/jose) [![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org) [![Join the chat at https://gitter.im/openjournals/jose](https://badges.gitter.im/openjournals/jose.svg)](https://gitter.im/openjournals/jose?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-The [Journal of Open Source Software](https://joss.theoj.org) (JOSS) is a developer friendly journal for research software packages.
+:construction:
+**NOTICE: we are still getting the journal set up, and are not yet accepting submissions.**
+Please watch this repo for updates.
+:construction:
 
-### What exactly do you mean by 'journal'
+The [Journal of Open Source Education](http://jose.theoj.org) (JOSE, pronounced [hoe-zay]) is a journal for open educational software and open-source educational content.
 
-The Journal of Open Source Software (JOSS) is an academic journal with a formal peer review process that is designed to _improve the quality of the software submitted_. Upon acceptance into JOSS, a CrossRef DOI is minted and we list your paper on the JOSS website.
+JOSE is a sibling journal to the [Journal of Open Source Software](http://joss.theoj.org) (JOSS), which publishes open research software.
+JOSE relies on the journal management infrastructure and tools developed for JOSS.
 
-### Don't we have enough journals already?
+JOSE publishes two types of (brief) articles that describe:
 
-Perhaps, and in a perfect world we'd rather papers about software weren't necessary but we recognize that for most researchers, papers and not software are the currency of academic research and that citations are required for a good career.
+ 1. open educational software tools
 
-We built this journal because we believe that after you've done the hard work of writing great software, it shouldn't take weeks and months to write a paper<sup>1</sup> about your work.
+ 2. open-source learning modules
 
-### You said developer friendly, what do you mean?
+ ### Why is this journal needed?
 
-We have a simple submission workflow and extensive documentation to help you prepare your submission. If your software is already well documented then paper preparation should take no more than an hour.
+ Currently, academia lacks a mechanism for crediting efforts to develop software for assisting teaching and learning *or* open-source educational content. As a result, beyond personal motivation, there is little incentive to develop and share such material.
 
-<sup>1</sup> After all, this is just advertising.
+ The Journal of Open Source Education (JOSE) is a scholarly journal with a formal peer review process designed to _improve the quality of the software or content submitted_. Upon acceptance into JOSE, a CrossRef DOI is minted and we list your paper on the JOSE website.
 
-## The site
+ ### What do you mean by "open-source educational materials"?
 
-The JOSS submission tool is hosted at https://joss.theoj.org
+ Examples include Jupyter notebooks or plaintext/markup language documents like LaTeX, R Markdown, and ReST for course/lesson content and associated notes, with embedded or associated code snippets/programs.
 
-## JOSS Reviews
+ We do **not** mean openly available slides, lecture notes, or YouTube videos, though these may be acceptable as supplementary materials. In addition, course syllabi by themselves are not suitable for submission ([*Syllabus*](http://syllabusjournal.org/) may be more appropriate).
 
-If you're looking for the JOSS reviews repository head over here: https://github.com/openjournals/joss-reviews/issues
+ tl;dr: your course or lesson content must contain or use code to teach. We are not focused exclusively on learning to code, but coding to learn.
 
-## Code of Conduct
+ ### What do you mean by "educational software tools"?
 
-In order to have a more open and welcoming community, JOSS adheres to a code of conduct adapted from the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+ Open-source software that serves as educational technology; examples include (but are not limited to) alternatives to learning management systems, autograders, cloud systems for lesson delivery, student collaboration tools. For these tools, peer review will follow a similar process as [JOSS](http://joss.theoj.org/about#reviewer_guidelines).
 
-Please adhere to this code of conduct in any interactions you have in the JOSS community. It is strictly enforced on all official JOSS repositories, the JOSS website, and resources. If you encounter someone violating these terms, please let the Editor-in-Chief ([@arfon](https://github.com/arfon)) or someone on the [editorial board](https://joss.theoj.org/about#editorial_board) know and we will address it as soon as possible.
+ ### Scope
 
-## Contributing
+ We consider submissions from all areas of academia, although our computational focus may result in more natural submissions from STEM fields—but all are welcome!
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+ Submissions must be "feature complete" to the extent that another educator could adopt, reuse, and/or extend for their purposes.
+
+ The ideal submission size is a course *module*, although entire courses are also acceptable.
+
+ ## The team
+
+ The editorial board includes:
+  - Lorena A. Barba (editor-in-chief), George Washington University
+  - Kathryn D. Huff, University of Illinois at Urbana–Champaign
+  - Jason Moore, University of California, Davis
+  - Kyle Niemeyer, Oregon State University
+  - Anthony Scopatz, University of South Carolina
+  - Charles R. Severance, University of Michigan
+  - Robert Talbert, Grand Valley State University
+  - Tracy Teal, Data Carpentry
+
+ Advisors to the journal include:
+  - Carly Strasser, Moore Foundation
+
+
+ ## The site
+
+ :construction: The JOSE submission tool will be hosted at http://jose.theoj.org.
+
+ ## JOSE Reviews
+
+ If you're looking for the JOSE reviews repository, head over here: https://github.com/openjournals/jose-reviews/issues
+
+ ## Code of Conduct
+
+ In order to ensure an open and welcoming community, JOSE adheres to a code of conduct adapted from the [Contributor Covenant](https://contributor-covenant.org) code of conduct.
+
+ Please adhere to this code of conduct in any interactions you have in the JOSS community. It is strictly enforced on all official JOSE repositories, the JOSE website, and resources. If you encounter someone violating these terms, please let the Editor-in-Chief ([@labarba](https://github.com/labarba)) or someone on the [editorial board](http://jose.theoj.org/about#editorial_board) know and we will address it as soon as possible.
+
+ ## Contributing
+
+ 1. Fork it
+ 2. Create your feature branch (`git checkout -b my-new-feature`)
+ 3. Commit your changes (`git commit -am 'Added some feature'`)
+ 4. Push to the branch (`git push origin my-new-feature`)
+ 5. Create new Pull Request
