@@ -1,12 +1,12 @@
 {
-  "name": "JOSS",
-  "description": "The JOSS application",
+  "name": "JOSE",
+  "description": "The JOSE application",
   "keywords": [
-    "JOSS",
+    "JOSE",
     "Open Journals"
   ],
-  "website": "http://joss.theoj.org",
-  "repository": "https://github.com/openjournals/joss/tree/generalize",
+  "website": "http://jose.theoj.org",
+  "repository": "https://github.com/openjournals/jose/tree/master",
   "success_url": "/",
   "scripts": {
   },
