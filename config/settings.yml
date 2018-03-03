@@ -1,7 +1,7 @@
 # Changing this file necessitates a server restart
 name: "The Journal of Open Source Education"
 abbreviation: "JOSE"
-tagline: "An <strong>educator friendly</strong> for publishing computational learning modules and educational software."
+tagline: "an <strong>educator friendly</strong> for publishing computational learning modules and educational software."
 logo_url: "http://jose.theoj.org/logo_large.png"
 url: "http://joss.theoj.org"
 editor_email: "jose.theoj@gmail.com"
