@@ -1,0 +1,27 @@
+### Conflict of interest
+
+- [ ] As the reviewer I confirm that I have read the [JOSE conflict of interest policy](https://github.com/openjournals/jose/blob/master/COI.md) and that there are no conflicts of interest for me to review this work.
+
+### Code of Conduct
+
+- [ ] I confirm that I read and will adhere to the [JOSE code of conduct](https://jose.theoj.org/about#code_of_conduct).
+
+### General checks
+
+- [ ] **Repository:** Is the source for this learning module available at the <%= link_to "repository url", paper.repository_url, :target => "_blank" %>?
+- [ ] **License:** Does the repository contain a plain-text LICENSE file with the contents of a standard license? (OSI-approved for code, Creative Commons for content)
+- [ ] **Version:** Does the release version given match the repository release (<%= paper.software_version %>)?
+- [ ] **Authorship:** Has the submitting author (<%= paper.submitting_author.github_username %>) made substantial contributions to the module? Does the full list of authors seem appropriate and complete?
+
+### Documentation
+
+- [ ] **A statement of need:** Do the authors clearly state the need for this module and who the target audience is?
+- [ ] **Installation instructions:** Is there a clearly stated list of dependencies?
+- [ ] **Example usage:** Do the authors include examples of how to use the module?
+- [ ] **Community guidelines:** Are there clear guidelines for third parties wishing to 1) Contribute to the software 2) Report issues or problems with the software 3) Seek support
+
+### Software paper
+
+- [ ] **Authors:** Does the `paper.md` file include a list of authors with their affiliations?
+- [ ] **A statement of need:** Do the authors clearly state the need for this module and who the target audience is?
+- [ ] **References:** Do all archival references that should have a DOI list one (e.g., papers, datasets, software)?
