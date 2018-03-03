@@ -1,87 +1,138 @@
 <p class="lead">
-  Firstly, thank you so much for agreeing to review for the Journal of Open Source Software (JOSS),
-  we're delighted to have your help. This document is designed to outline our editorial guidelines
-  and help you understand our requirements for accepting a submission into the JOSS. Our review
-  process is based on a tried-and-tested approach of the
-  <a href="http://ropensci.org/blog/2016/03/28/software-review" target="_blank">rOpenSci collaboration</a>.
+  Thank you for agreeing to review for JOSE! Follow this guide to help you complete your review, 
+  and feel free to ask editors for more help using any medium (email, Twitter, comments on review 
+  issues, etc.)
 </p>
 
-<h2>Some guiding principles for you the reviewer</h2>
+<h2>JOSE review principles</h2>
 
 <p>
-  We like to think of JOSS as a 'developer friendly' journal. That is, if the submitting authors
-  have followed best practices (have documentation, tests, continuous integration, and a license)
-  then their review should be extremely rapid.
-</p>
-
-<p>
-  For those authors that don't quite meet the bar, please try to give clear feedback on how they
-  could improve their submission. A key goal of JOSS is to raise the quality of research software
-  generally and you (the experienced reviewer) are well placed to give this feedback.
+  JOSE accepts two types of submissions, and your role as reviewer will be different depending on
+  the type. For software submissions, you will download, build, test and assess the software quality.
+  For learning modules, you will download and read, test code components, and assess content and
+  pedagogy.
 </p>
 
 <p>
-  We encourage reviewers to file issues against the
-  <a href="#author_guidelines">submitted repository</a>'s issue tracker. Include in your review
-  links to any new issues that you the reviewer believe to be impeding the acceptance of the
-  repository. (If the submitted repository is a GitHub repository, mentioning the review issue URL
-  in the submitted repository's issue tracker will create a mention in the review issue's history.)
+  For both types of submissions, your goal as reviewer is to help authors improve the quality 
+  of the submission to the standard for acceptance into JOSE. Categorical rejections are expected
+  only in cases of out-of-scope or otherwise ineligible submissions.
+  If authors decide they cannot meet your requests for improvements, however, they can withdraw
+  their submission.
 </p>
 
-<h2>The JOSS paper</h2>
+<p>
+  JOSE provides a checklist for review. You will check off each item, as you proceed with the
+  review, adding comments and suggestions in the Review issue thread. You may also post specific
+  issues on the main repository of the submitted software or module. Be sure to post links between
+  the JOSE Review issue and the submission repository's issue tracker, as needed.
+</p>
 
-<p>The JOSS paper (the PDF associated with this submission) should only include:</p>
+<h2>JOSE aim and scope</h2>
+
+<p>
+  We're witnessing a swelling of communities that develop and share tools and practices in
+  computationally enabled teaching and learning. 
+  The founding editors of JOSE have been participating in these communities, and recognized
+  a need for a publication to house these scholarly products in a citable form. 
+</p>
+
+<p>
+  Several journals already exist that publish academic papers reporting on <em>education research</em>: 
+  the systematic collection and analysis of data on teaching methods and student learning, and
+  related qualitative studies. 
+  JOSE has a different scope. 
+  We're focused on the rich and growing work applying computational methods to enhance teaching
+  and learning. 
+  For example, a whole new genre of open educational resources (OER) has sprouted out of creating
+  and sharing Jupyter notebooks, in a variety of subjects benefitting from a computational treatment. 
+  At the same time, members of open-source communities are creating software tools to automate
+  processes (like grading), facilitate access to computing for learning (via cloud systems), or 
+  otherwise enhance teaching and learning with computing. 
+  These are valuable contributions, independently of their possible use in education research, 
+  and their creators merit publication and citaion credit for them.
+</p>
+
+<p>
+  JOSE also aims to disseminate the best practices in creating these scholarly objects, and 
+  increase quality via peer review. 
+  We want to be a formal, yet open and collegial vehicle for sharing accumulated knowledge 
+  in using computing to teach and learn. 
+</p>
+
+<h2>The JOSE paper</h2>
+
+<p>Authors will submit a paper to accompany their software or learning module, consisting 
+  of the following minimum items:</p>
 
 <ul>
-  <li>A list of the authors of the software</li>
-  <li>Author affiliations</li>
-  <li>A short summary describing the high-level functionality of the software</li>
-  <li>A list of key references including a link to the software archive</li>
+  <li>Title, and author list with affiliations</li>
+  <li>Description of the software or learning module</li>
+  <li>Statement of need</li>
+  <li>Key references, including the submission archive</li>
 </ul>
 
 <p>
-  Note the paper should <em>not</em> include software documentation such as API (Application
-  Programming Interface) functionality, as this should be outlined in the software documentation.
+  Detailed documentation should be present in the repository of the submitted software or
+  module, is reviewed there, and does not need to be included in the paper.
 </p>
 
-<h2>Software license</h2>
+<h2>Submission Requirements</h2>
 
+<h3>License</h3>
 <p>
-  There should be an
-  <a href="https://opensource.org/licenses/alphabetical" target="_blank">OSI approved</a> license
-  included in the repository. Common licenses such as those listed on
-  <a href="http://choosealicense.com" target="_blank">http://choosealicense.com</a> are preferred.
-  Note there should be an actual license file present in the repository not just a reference to the
-  license.
+  The submission should be open, under the 
+  <a href="http://opendefinition.org" target="_blank">Open Definition</a>.
+  Any text content or graphical objects should be under a Creative Commons license (ideally CC-BY)
+  and code components should be under an 
+  <a href="https://opensource.org/licenses/alphabetical" target="_blank">OSI-approved license</a>.
+  License information must be clearly visible in the submission's online repository, which must
+  include a plain-text LICENSE file.
 </p>
 
 <blockquote>
   <p>
-    Acceptable: A plain-text LICENSE file with the contents of an OSI approved license<br />
+    Acceptable: A plain-text LICENSE file with the contents of an OSI-approved license<br />
     Not acceptable: A phrase such as 'MIT license' in a README file
   </p>
 </blockquote>
 
-<h2>Documentation</h2>
+<h3>Statement of need</h3>
 
 <p>
-  There should be sufficient documentation for you, the reviewer to understand the core
-  functionality of the software under review. A high-level overview of this documentation should be
-  included in a README file (or equivalent). There should be:
+  A key component of the JOSE paper is a statement by the authors, explaining the contribution
+  made by the submitted artifacts to computationally enabled teaching and learning, and
+  describing how they might be used by others.
+  The criterion is less one of novelty, than <em>need</em>: submissions targeting subjects or 
+  applications already addressed by other resources <em>are eligible</em>, if the authors make
+  a case for why they might be adopted by learners or other instructors.
 </p>
 
-<h3>A statement of need</h3 >
+<h3>Community guidelines</h3 >
 
 <p>
-  The authors should clearly state what problems the software is designed to solve and who the
-  target audience is.
+  The online repository of the software or learning module needs to contain guidelines
+  for potential contributors who may want to: submit changes, make improvements or report issues.
 </p>
 
-<h3>Installation instructions</h3>
+<h3>Specific requirements for software submissions</h3>
 
 <p>
-  There should be a clearly-stated list of dependencies. Ideally these should be handled with an
-  automated package management solution.
+  <strong>Documentation:</strong> The software repository should contain enough documentation
+  to understand the functionality of the software, to guide through the build process
+  (including a list of dependencies), and to complete examples of use.
+</p>
+
+<p>
+  <strong>Tests:</strong> Software quality depends on testing. Ideally, the software should
+  include an automated test suite, but it's also acceptable to include documented manual steps
+  to test the functionality of the software.
+</p>
+
+<p>
+  <strong>Examples:</strong> Potential users of new software rely on well-documented examples
+  to get started. Reviewers will look for examples of use that illustrate beginner and advanced
+  functionality
 </p>
 
 <blockquote>
@@ -100,36 +151,26 @@
   analysis problems).
 </p>
 
-<h3>API documentation</h3>
+<h3>Specific requirements for learning modules</h3>
 
 <p>
-  Reviewers should check that the software API is documented to a suitable level. This decision is
-  left largely to the discretion of the reviewer and their experience of evaluating the software.
+  <strong>Substance:</strong> 
+  A learning module should cover a substantial portion of material to achieve plainly clear
+  learning objectives. The ideal module consists of a few lessons, building up a well-rounded
+  topic, as a full tutorial or <em>part of</em> a term or semester course. This direction follows
+  trends and recommendations to 'modularize' courses, both online and on-campus—one example is the
+  2014 report on the <a href="http://news.mit.edu/2014/future-of-mit-education-0804">Future of MIT Education</a>.
+  The module should contain well-written and complete presentation of the material, weaved with the
+  computatational portions and sample output.
 </p>
-
-<blockquote>
-  <p>
-    Good: All functions/methods are documented including example inputs and outputs<br />
-    OK: Core API functionality is documented<br />
-    Bad (not acceptable): API is undocumented
-  </p>
-</blockquote>
-
-<h3>Tests</h3>
 
 <p>
-  Authors are strongly encouraged to include an automated test suite covering the core functionality
-  of their software.
+  <strong>Pedagogical soundness:</strong>
+  Instructional design of the module should be intentional and apparent. For example, the weaving
+  of text, images, code and output  might apply the 
+  <a href="https://en.wikipedia.org/wiki/Worked-example_effect">worked-example effect</a>, deliberately. 
+  The authors should briefly explain their design in the JOSE paper.
 </p>
-
-<blockquote>
-  <p>
-    Good: An automated test suite hooked up to an external service such as Travis-CI or similar<br />
-    OK: Documented manual steps that can be followed to check the expected functionality of the
-    software (e.g. a sample input file to assert behaviour)<br />
-    Bad (not acceptable): No way for you the reviewer to check whether the software works
-  </p>
-</blockquote>
 
 <h3>Community guidelines</h3>
 
@@ -138,52 +179,18 @@
 </p>
 
 <ul>
-  <li>Contribute to the software</li>
-  <li>Report issues or problems with the software</li>
+  <li>Contribute to the software/module</li>
+  <li>Report issues or problems with the software/module</li>
   <li>Seek support</li>
 </ul>
 
-<h3>Examples</h3>
 
-<p>
-  Include here some examples of well-documented software for people to review.
-</p>
-
-<h2>Functionality</h2>
-
-<p>
-  Reviewers are expected to install the software they are reviewing and to verify the core
-  functionality of the software.
-</p>
-
-<h2>Other considerations</h2>
-
-<h3>An important note about 'novel' software</h3>
-
-<p>
-  Submissions that implement solutions already solved in other software packages are accepted into
-  JOSS provided that they meet the criteria listed above and cite prior similar work.
-</p>
-
-<h3>What happens if the software I'm reviewing doesn't meet the JOSS criteria?</h3>
+<h3>What happens if the submission I'm reviewing doesn't meet the JOSE criteria?</h3>
 
 <p>
   We ask that reviewers grade submissions in one of three categories: 1) Accept 2) Minor Revisions
-  3) Major Revisions. Unlike some journals we do not reject outright submissions requiring major
-  revisions - we're more than happy to give the author as long as they need to make these
+  3) Major Revisions. Unlike some journals, we do not reject outright submissions requiring major
+  revisions. we like to give the author as long as they need to make these
   modifications/improvements.
 </p>
 
-<h3>What about submissions that rely upon proprietary languages/development environments?</h3>
-
-<p>
-  As outlined in our author guidelines, submissions that rely upon a proprietary/closed source
-  language or development environment are acceptable provided that they meet the other submission
-  requirements and that you, the reviewer, are able to install the software &amp; verify the
-  functionality of the submission as required by our reviewer guidelines.
-</p>
-
-<p>
-  If an open source or free variant of the programming language exists, feel free to encourage the
-  submitting author to consider making their software compatible with the open source/free variant.
-</p>
