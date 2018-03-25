@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'aasm', '~> 4.1.0'
+gem 'bootsnap', require: false
 gem 'dotenv', '~> 2.2.1'
 gem 'github-markdown', '~> 0.6.9'
 gem 'honeybadger', '~> 3.2.0'
@@ -43,4 +44,5 @@ group :development do
   gem 'web-console', '~> 3.5.1'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'spring-commands-rspec', group: :development
 end
