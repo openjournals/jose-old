@@ -114,7 +114,7 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
-    nokogumbo (1.4.13)
+    nokogumbo (1.5.0)
       nokogiri
     oauth2 (1.4.0)
       faraday (>= 0.8, < 0.13)
@@ -199,10 +199,10 @@ GEM
     ruby-enum (0.7.2)
       i18n
     safe_yaml (1.0.4)
-    sanitize (4.5.0)
+    sanitize (4.6.4)
       crass (~> 1.0.2)
       nokogiri (>= 1.4.4)
-      nokogumbo (~> 1.4.1)
+      nokogumbo (~> 1.4)
     sass (3.5.6)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -279,7 +279,7 @@ DEPENDENCIES
   rails (= 5.1.4)
   rails-controller-testing (~> 1.0.2)
   rspec-rails (~> 3.7.2)
-  sanitize (~> 4.5.0)
+  sanitize (~> 4.6.3)
   sass-rails (~> 5.0.7)
   spring
   spring-commands-rspec
