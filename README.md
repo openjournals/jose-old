@@ -57,7 +57,7 @@ JOSE publishes two types of (brief) articles that describe:
 
  ## The site
 
- :construction: The JOSE submission tool will be hosted at http://jose.theoj.org.
+The JOSE submission tool is hosted at http://jose.theoj.org.
 
  ## JOSE Reviews
 
