@@ -2,11 +2,6 @@
 
 [![Build Status](https://travis-ci.org/openjournals/jose.svg?branch=master)](https://travis-ci.org/openjournals/jose) [![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org) [![Join the chat at https://gitter.im/openjournals/jose](https://badges.gitter.im/openjournals/jose.svg)](https://gitter.im/openjournals/jose?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-:construction:
-**NOTICE: we are still getting the journal set up, and are not yet accepting submissions.**
-Please watch this repo for updates.
-:construction:
-
 The [Journal of Open Source Education](http://jose.theoj.org) (JOSE, pronounced [hoe-zay]) is a journal for open educational software and open-source educational content.
 
 JOSE is a sibling journal to the [Journal of Open Source Software](http://joss.theoj.org) (JOSS), which publishes open research software.
