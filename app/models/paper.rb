@@ -118,10 +118,10 @@ class Paper < ActiveRecord::Base
     end
   end
 
-  # A 5-figure integer used to produce the JOSS DOI
+  # A 5-figure integer used to produce the JOSE DOI
   def joss_id
     id = "%05d" % review_issue_id
-    "joss.#{id}"
+    "jose.#{id}"
   end
 
   # Where to find the PDF for this paper
