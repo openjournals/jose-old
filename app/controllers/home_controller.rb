@@ -2,7 +2,7 @@ class HomeController < ApplicationController
   before_action :require_user, :only => %w(profile update_profile)
 
   def index
-    @papers = Paper.visible.limit(10)
+    @papers = Paper.unscoped.visible.order(:accepted_at => :desc).limit(10)
   end
 
   def about
