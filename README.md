@@ -9,9 +9,9 @@ JOSE relies on the journal management infrastructure and tools developed for JOS
 
 JOSE publishes two types of (brief) articles that describe:
 
- 1. open educational software tools
+ 1. open-source educational materials
 
- 2. open-source learning modules
+ 2. open educational software tools
 
  ### Why is this journal needed?
 
@@ -21,7 +21,13 @@ JOSE publishes two types of (brief) articles that describe:
 
  ### What do you mean by "open-source educational materials"?
 
- Examples include Jupyter notebooks or plaintext/markup language documents like LaTeX, R Markdown, and ReST for course/lesson content and associated notes, with embedded or associated code snippets/programs.
+ "Open-source" implies that there are source files that are converted and
+ rendered into a final learner-presentable form of the content. Examples
+ include Jupyter notebooks or plaintext/markup language documents like LaTeX,
+ Markdown, ReStructuredText, AsciiDoc, and R Markdown. These documents should
+ embody both course/lesson content and associated instructor notes. Lastly, the
+ course content should make use of computation for learning with embedded or
+ associated code snippets/programs.
 
  We do **not** mean openly available slides, lecture notes, or YouTube videos, though these may be acceptable as supplementary materials. In addition, course syllabi by themselves are not suitable for submission ([*Syllabus*](http://syllabusjournal.org/) may be more appropriate).
 
