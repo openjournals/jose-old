@@ -11,7 +11,7 @@ JOSE publishes two types of (brief) articles that describe:
 
  1. open-source educational materials
 
- 2. open educational software tools
+ 2. open-source educational software tools
 
  ### Why is this journal needed?
 
@@ -22,18 +22,18 @@ JOSE publishes two types of (brief) articles that describe:
  ### What do you mean by "open-source educational materials"?
 
  "Open-source" implies that there are source files that are converted and
- rendered into a final learner-presentable form of the content. Examples
- include Jupyter notebooks or plaintext/markup language documents like LaTeX,
- Markdown, ReStructuredText, AsciiDoc, and R Markdown. These documents should
- embody both course/lesson content and associated instructor notes. Lastly, the
- course content should make use of computation for learning with embedded or
- associated code snippets/programs.
+ rendered into a final learner-presentable form. Examples include Jupyter
+ notebooks or plaintext/markup language documents like LaTeX, Markdown,
+ ReStructuredText, AsciiDoc, and R Markdown. These documents should contain the
+ lesson content and be designed to be reusable by other instructors.  Lastly,
+ the course content should make use of computation for learning with embedded
+ or associated code snippets/programs.
 
  We do **not** mean openly available slides, lecture notes, or YouTube videos, though these may be acceptable as supplementary materials. In addition, course syllabi by themselves are not suitable for submission ([*Syllabus*](http://syllabusjournal.org/) may be more appropriate).
 
  tl;dr: your course or lesson content must contain or use code to teach. We are not focused exclusively on learning to code, but coding to learn.
 
- ### What do you mean by "educational software tools"?
+ ### What do you mean by "open-source educational software tools"?
 
  Open-source software that serves as educational technology; examples include (but are not limited to) alternatives to learning management systems, autograders, cloud systems for lesson delivery, student collaboration tools. For these tools, peer review will follow a similar process as [JOSS](http://joss.theoj.org/about#reviewer_guidelines).
 
